@@ -1,5 +1,5 @@
 FROM node:9-alpine
-ENV NODE_VERSION 9.11.2a
+ENV NODE_VERSION 9.11.2b
 COPY . /src
 RUN cd /src && npm install
 EXPOSE 80
